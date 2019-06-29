@@ -1,8 +1,8 @@
 
 function makePlaylist() {
+var playlist
 
-
-var playlist = {
+playlist = {
   radioHead: 'Subterranean Homesick alien'
 }
 
