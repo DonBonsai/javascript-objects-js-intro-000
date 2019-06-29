@@ -7,6 +7,7 @@ playlist = {
 }
 
 return playlist;
+playlist
 }
 
 function updatePlaylist(obj, artist, songTitle) {
