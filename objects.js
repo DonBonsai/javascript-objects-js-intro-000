@@ -13,6 +13,7 @@ function updatePlaylist(obj, artist, songTitle) {
 }
 
 function removeFromPlaylist(obj, artist){
+  var artist = `${artist}`;
   delete obj.artist;
   return obj
 }
