@@ -2,7 +2,7 @@ var playlist = {
   radioHead: 'Subterranean Homesick alien'
 }
 
-function updatePlaylist(playlist, artistName, songTitle) {
-  playlist.artistName = songTitle
+function updatePlaylist(playlist, artist, songTitle) {
+  playlist.artist = songTitle
   return playlist
 }
